@@ -1,5 +1,4 @@
 package Day2;
-import java.text.DateFormatSymbols;
 import java.util.*;
 public class solution {
     public static void main(String[] args) {
@@ -19,9 +18,8 @@ public class solution {
         addEdge(2,4,AdjacencyList);
         addEdge(3,4,AdjacencyList);
 
-        for(int i=0;i<AdjacencyList.size();i++)
-        {
-            System.out.println(AdjacencyList.get(i));
+        for (ArrayList<Integer> integers : AdjacencyList) {
+            System.out.println(integers);
         }
         DFS(0,visited,AdjacencyList);
     }

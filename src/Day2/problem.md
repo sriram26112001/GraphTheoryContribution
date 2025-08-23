@@ -1,7 +1,7 @@
 
 This project contains an implementation of Depth-First Search (DFS) on a graph using an adjacency list. DFS is a fundamental graph traversal algorithm used in:
 
-![Images/Graph for BFS and DFS.jpg](../../Images/Graph for BFS and DFS.jpg)
+![Images/Graph for BFS and DFS.jpg](../../Images/Graph%20for%20BFS%20and%20DFS.jpg)
 
 🧠 Intuition
 
